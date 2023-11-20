@@ -12,7 +12,7 @@ This Space will be the first RasPi build Repo.
 ## raspi builds for remote needs and gaming
 https://retropie.org.uk/docs/First-Installation/
 ---
-## If youre missing "Emulation Station"
+- If youre missing "Emulation Station"
 ```
 sudo apt update
 sudo apt full-upgrade
@@ -21,11 +21,11 @@ sudo apt-get install -y git
 
 git clone --depth=1 https://github.com/RetroPie/RetroPie-Setup.git
 ```
-Before running the setup script, we need to change into the directory that we cloned in the latest section.
+- Before running the setup script, we need to change into the directory that we cloned in the latest section.
 ```
 cd RetroPie-Setup
 ```
-Then Let it RIP!
+- Then Let it RIP!
 ```
 sudo ./retropie_setup.sh
 ```
@@ -36,14 +36,14 @@ sudo ./retropie_setup.sh
 ## If you need help with booting the 3.5" LCD screen, see below. 
 ---
 ### Step 1.
-# First of all enable SPI by using the terminal command:
+- First of all enable SPI by using the terminal command:
 
 ```
 raspi-config
 ```
-# Navigate to ‘Advanced options’ and then enable SPI
+- Navigate to ‘Advanced options’ and then enable SPI
 
-# Reboot if needed through the command in the terminal:
+- Reboot if needed through the command in the terminal:
 
 ```
 sudo reboot
