@@ -1,6 +1,15 @@
 # raspi_builds
+Building is my quite space. Whether its wooden objects, homes, cars, trucks, or Rasbian Beauties, I build. 
+This Space will be the first RasPi build Repo. 
+
+- Nothing Further. 
 
 
+
+---
+# P1
+# RetroPi
+---
 ## If youre missing "Emulation Station"
 ```
 sudo apt update
