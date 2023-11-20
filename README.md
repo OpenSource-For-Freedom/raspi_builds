@@ -9,6 +9,8 @@ This Space will be the first RasPi build Repo.
 ---
 # P1
 # RetroPi
+## raspi builds for remote needs and gaming
+https://retropie.org.uk/docs/First-Installation/
 ---
 ## If youre missing "Emulation Station"
 ```
@@ -29,9 +31,7 @@ sudo ./retropie_setup.sh
 ```
 
 
-
-## raspi builds for remote needs and gaming
-[https://retropie.org.uk/docs/First-Installation/][https://retropie.org.uk/docs/First-Installation/]
+---
 
 ## If you need help with booting the 3.5" LCD screen, see below. 
 ---
