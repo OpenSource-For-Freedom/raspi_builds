@@ -1,5 +1,6 @@
 # raspi_builds
 ## raspi builds for remote needs and gaming
+[https://retropie.org.uk/docs/First-Installation/][https://retropie.org.uk/docs/First-Installation/]
 
 ## If you need help with booting the 3.5" LCD screen, see below. 
 ---
@@ -44,3 +45,5 @@ sudo nano /boot/config.txt
 dtoverlay=piscreen,speed=16000000,rotate=90
 
 # Save config file, safely eject and boot int Raspi. You should see the Display ight up with the correct terminal output. 
+
+[def]: https://retropie.org.uk/docs/First-Installation/
