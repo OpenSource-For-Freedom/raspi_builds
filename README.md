@@ -48,31 +48,31 @@ raspi-config
 ```
 sudo reboot
 ```
-# The touch screen should turn on and be white colored.
+- The touch screen should turn on and be white colored.
 
 ### Step 2.
 
-# If your still running the Buster beta upgrade to the latest stable kernel
+- If your still running the Buster beta upgrade to the latest stable kernel
 ```
 sudo apt-get update –allow-releaseinfo-change
 ```
-# Give the command time to update and upgrade:
+- Give the command time to update and upgrade:
 ```
 sudo apt-get update
 sudo apt-get upgrade
 sudo reboot
 ```
 ### Step 3.
-# Now to modify the configuration file to configure the display
+- Now to modify the configuration file to configure the display
 ```
 sudo nano /boot/config.txt
 ```
-# then add this line to the bottom
+- then add this line to the bottom
 
 ```
 dtoverlay=piscreen,speed=16000000,rotate=90
 ```
 
-# Save config file, safely eject and boot int Raspi. You should see the Display ight up with the correct terminal output. 
+- Save config file, safely eject and boot int Raspi. You should see the Display ight up with the correct terminal output. 
 
 [def]: https://retropie.org.uk/docs/First-Installation/
