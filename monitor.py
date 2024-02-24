@@ -8,13 +8,13 @@ import time
 # define loop monitor pid
 # define KEIO and KOIO based on inout pin
 
-class PIDMonitor:
+class PIDMonitor: #varying pid monitor hardware TBD
     def __init__(self, input_pin, output_pin):
         self.input_device = InputDevice(input_pin)
         self.output_device = OutputDevice(output_pin)
         self.data = {'time': [], 'input': [], 'output': []}
 
-    def monitor_loop(self, duration_sec):
+    def monitor_loop(self, duration_sec): # def KOIO and KOEO to not drain battery 
         start_time = time.time()
 
         while time.time() - start_time < duration_sec:
