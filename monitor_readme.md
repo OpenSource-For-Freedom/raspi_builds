@@ -10,15 +10,15 @@ This Python framework enables the monitoring of automotive-based computer system
 Install dependencies using:
 ```bash
 pip install gpiozero matplotlib
-
+```
 Usage
 
 	1.	Connect your PID or electronic system to the appropriate GPIO pins on the Raspberry Pi.
 	2.	Modify the monitor.py script to match your specific system and requirements. You may need to adjust pin numbers, sleep time, and implement PID control logic.
 	3.	Execute the script:
-
+```bash
 python monitor.py
-
+```
 	4.	The monitoring loop will run for a specified duration, collecting input and output data. The results will be plotted using matplotlib.
 
 Script Customization
