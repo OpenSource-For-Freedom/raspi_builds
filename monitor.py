@@ -1,7 +1,7 @@
 # inital raspi pid mapping and monitoring framework 
 
 from gpiozero 
-import InputDevice, OutputDevice
+import InputDevice, OutputDevice # i bekieve this will require USB Interface drivers for this? 
 import matplotlib.pyplot as plt
 import time
 # pid monitor status and input sequences (general) 
